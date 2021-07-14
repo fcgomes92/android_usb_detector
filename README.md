@@ -24,3 +24,4 @@ systemctl --user enable scrcpy.service
 
 # A cat
 
+![a cat](./assets/cat.jpg)
