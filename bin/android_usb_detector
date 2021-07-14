@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+
+import android_usb_detector
+android_usb_detector.main()

@@ -1,0 +1,14 @@
+[Unit]
+Description=Scrcpy service
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+EnvironmentFile={ENV}
+ExecStart={EXEC_START}
+
+[Install]
+WantedBy=default.target
